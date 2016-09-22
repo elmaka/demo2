@@ -358,20 +358,19 @@ body {
 }
 .container .zuo .zx .zuo11 .qnr .qnrs .qnrs img{
     border: none;
-    width: 83px;
-    height: 64px;
+    width: 81px;
+    height: 62px;
 }
 .container .zuo .zx .zuo11 .qnr .qnrs .qnrsz {
-    width: 89px;
-    height: 66px;
+    width: 91px;
+    height: 70px;
     float: left;
     padding: 1px;
     border: 1px solid #afafaf;
 }
 .container .zuo .zx .zuo11 .qnr .qnrs .qnrsy {
-    width: 198px;
-    height: 70px;
-    background: darkblue;
+    width: 196px;
+    height: 72px;
     float: left;
     margin-left: 15px;
 }
@@ -382,17 +381,19 @@ body {
 .container .zuo .zx .zuo11 .qnr .qnrs .qnrsy .neir {
     color: #888888;
     font-size: 12px;
+    margin-top: 10px;
+    line-height: 16px;
 }
 .container .zuo .zx .zuo11 .qnr .qnrx {
     width: 288px;
     height: 149px;
-    background: yellow;
     float: left;
-    padding: 10px;
+    padding-top: 10px;
 }
 .container .zuo .zx .zuo11 .qnr ul li {
     list-style: none;
     background: url("../img/icon.gif") no-repeat 0 -300px;
+    line-height: 18px;
 }
 
 .container .zuo .zx .zuo11 .qnr ul li a {
@@ -416,14 +417,16 @@ body {
 
 .container .you .yous {
     width: 228px;
-    height: 255px;
-    background: url("../img/index_20.jpg") no-repeat;
+    height: 254px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
     float: left;
 }
 .container .you .yous .cpdg {
     width: 218px;
     height: 19px;
-    background: ghostwhite;
+    background: url("../img/index_03.png") no-repeat;
     float: left;
     padding: 5px;
     font-size: 14px;
@@ -436,7 +439,6 @@ body {
     list-style: none;
     width: 218px;
     height: 55px;
-    background: indianred;
     border-bottom: 1px dashed gainsboro;
     float: left;
     padding: 5px;
@@ -445,7 +447,6 @@ body {
 .container .you .yous ul li .tt {
     width: 48px;
     height: 48px;
-    background: green;
     float: left;
 }
 .container .you .yous ul li .tt img {
@@ -456,7 +457,6 @@ body {
 .container .you .yous ul li .yneir {
     width: 148px;
     height: 38px;
-    background: yellow;
     float: left;
     margin-left: 10px;
     padding: 5px;
@@ -478,7 +478,6 @@ body {
 /*--使用问答开始--*/
 .container .you .youz {
     width: 228px;
-    background: url("../img/index_30.jpg") no-repeat;
     float: left;
     margin-top: 12px;
 }
@@ -490,6 +489,7 @@ body {
     line-height: 30px;
     padding-left: 15px;
     float: left;
+    background: url("../img/index_03.png") no-repeat;
 
 }
 .container .you .youz .biaoti h3 span {
@@ -501,8 +501,11 @@ body {
 .container .you .youz .youz_content {
     padding-left: 10px;
     padding-bottom: 10px;
-    width: 188px;
+    width: 218px;
     float: left;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
 }
 .container .you .youz ul li {
     list-style: none;
@@ -523,9 +526,9 @@ body {
     font-size: 12px;
     padding-left: 30px;
     width: 178px;
-    padding-top: 5px;
+    padding-top: 13px;
     margin-bottom: 5px;
-    background: url("../img/icon.gif") no-repeat 5px -145px;
+    background: url("../img/icon.gif") no-repeat 5px -137px;
 }
 .container .you .youz .wenzhang .biaop {
     width: 208px;
@@ -547,38 +550,44 @@ body {
     line-height: 18px;
     margin-top: 5px;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .container .you .youx {
     width: 228px;
     height: 147px;
-    background: url("../img/index_40.jpg") no-repeat;
     float: left;
     margin-top: 2px;
 }
 .container .you .youx .lxwm {
     width: 228px;
-    height:136px;
-    background: ghostwhite;
-    float: left;
+    height:146px;
+    float: left;/*
+    margin-top:10px ;*/
+}
+.container .you .youx .lxwm .bg{
+    background: url("../img/index_03.png") no-repeat;
 }
 .container .you .youx .lxwm h3{
     display:block;
-    width:218px;
+    width:226px;
     height:30px;
     line-height: 30px;
     font-size: 14px;
     padding-left:10px;
+    margin-top: 10px;
 }
 .container .you .youx .lxwm h3 span {
     color: red;
     line-height: 19px;
 }
 .container .you .youx .lxtup {
-    width: 228px;
-    height: 112px;
+    width: 226px;
     float: left;
+    height: 113px;
     background: url("../img/tel.gif") no-repeat;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
 }
 /*---内容右完成---*/
 .lianjie {
