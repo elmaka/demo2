@@ -93,6 +93,20 @@ body {
     width: 107px;
     height: 27px;
     line-height: 36px;
+    }
+.nav .zs ul .xingw {
+    /*width: 107px;
+    height: 27px;*/
+    background: url("../img/nav_bg2.png") no-repeat 5px -50px;
+    margin-top: 8px;
+}
+.nav .zs ul .xingw a{
+    margin-top: -8px;
+    color: gray;
+}
+.nav .zs ul .xingw a:hover{
+    background:none;
+
 }
 
 .nav .zs ul li a {
@@ -111,7 +125,6 @@ body {
     font-weight: bold;
     background: url("../img/nav_bg2.png") repeat-x 1px 4px;
 }
-
 .nav .zhengt .zx {
     width: 890px;
     height: 30px;
@@ -169,7 +182,6 @@ body {
 .container .zuo .zuo1 {
     width: 269px;
     height: 255px;
-    background: gainsboro;
     float: left;
 }
 
@@ -269,7 +281,10 @@ body {
     width: 640px;
     height: 249px;
     float: left;
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
     border-bottom:1px solid #dbdbdb;
     border-right:1px solid #dbdbdb ;
     border-left:1px solid #dbdbdb ;
@@ -400,6 +415,7 @@ body {
     text-decoration: none;
     font-size: 12px;
     padding-left: 20px;
+    color: black;
 }
 .container .zuo .zx .you11 {
     width: 328px;
@@ -437,12 +453,13 @@ body {
 }
 .container .you .yous ul li {
     list-style: none;
-    width: 218px;
+    width: 193px;
     height: 55px;
     border-bottom: 1px dashed gainsboro;
     float: left;
     padding: 5px;
-    padding-top: 10px;
+    margin-left: 10px;
+    padding-top: 13px;
 }
 .container .you .yous ul li .tt {
     width: 48px;
@@ -455,7 +472,7 @@ body {
     float: left;
 }
 .container .you .yous ul li .yneir {
-    width: 148px;
+    width: 118px;
     height: 38px;
     float: left;
     margin-left: 10px;
@@ -500,26 +517,24 @@ body {
 
 .container .you .youz .youz_content {
     padding-left: 10px;
-    padding-bottom: 10px;
-    width: 218px;
+    padding-bottom: 5px;
+    width: 216px;
+    float: left;
+    display: block;
     float: left;
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
-}
-.container .you .youz ul li {
-    list-style: none;
-    font-size: 12px;
-    width:208px;
-    height: auto;
-    display: block;
-    float: left;
 }
 /*.container .you .youz .qux{
     border-bottom:none;
 }*/
 .container .you .youz ul .meiy {
     border: none;
+
+}
+.container .you .youz ul li{
+    list-style: none;
 }
 .container .you .youz .wenzhang h4 {
     color: #666666;
@@ -548,7 +563,7 @@ body {
      float: left;
     font-size: 12px;
     line-height: 18px;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-bottom: 5px;
 }
@@ -584,7 +599,6 @@ body {
     width: 226px;
     float: left;
     height: 113px;
-    background: url("../img/tel.gif") no-repeat;
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
