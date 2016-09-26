@@ -17,20 +17,229 @@ body{
     background: blanchedalmond;
 }
 .nav{
-    width: 1440px;
-    height: 55px;
+    width:1440px;
+    height:55px;
     background: burlywood;
 }
+.navs{
+    width:1440px;
+    height:31px;
+    background: url("../images/nav.png") no-repeat;
+    float:left;
+}
+.navs .zj{
+    width:1000px;
+    height:31px;
+    margin: 0 auto;
+    background: red;
+}
+.navs ul li{
+    width:100px;
+    height:31px;
+    float: left;
+    text-align: left;
+    list-style: none;
+    line-height: 31px;
+    margin-left: 20px;
+}
+.navs ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+}
+.navs ul li span{
+    float: right;
+    color: #ffffff;
+}
+/*导航下开始*/
+.navx{
+    width:1440px;
+    height:24px;
+    background: #c5e4ff;
+    float:left;
+}
+.navx .navxj{
+    width:868px;
+    height:24px;
+    margin: 0 auto;
+    padding-left: 132px;
+    background: goldenrod;
+}
+.navx  ul li{
+    width:100px;
+    height:24px;
+    line-height: 24px;
+    float: left;
+    text-align: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navx .navxj ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #005ea8;
+    font-size: 12px;
+}
+/*.navx .navxj ul li img{
+    line-height: 24px;
+}*/
+/*导航下结束*/
 .banner{
     width: 1440px;
     height: 216px;
     background: #005ea8;
 }
+.banner .banner_zj{
+    width: 1000px;
+    height: 216px;
+    background: url("../images/icon_16.png") no-repeat;
+    margin: 0 auto;
+}
+/*中间开始*/
 .container{
     width: 1440px;
     height: 939px;
     background: gainsboro;
 }
+.container .container_zj{
+    width: 1000px;
+    height: 939px;
+    background: greenyellow;
+    margin: 0 auto;
+}
+/*左开始*/
+.container .container_zou{
+    width: 230px;
+    height: 917px;
+    background: paleturquoise;
+    float:left;
+}
+/*左上开始*/
+.container .container_zou .zuo1{
+    width: 230px;
+    height: 443px;
+    background: pink;
+    float:left;
+}
+.container .container_zou .zuo1 .tup1{
+    width: 230px;
+    height: 63px;
+    background: pink url("../images/icon_19.png") no-repeat;
+    float:left;
+}
+.container .container_zou .zuo1 .liebiao{
+    width: 230px;
+    height: 380px;
+    background:#e4f3ff;
+    float:left;
+}
+.container .container_zou .zuo1 .liebiao ul li{
+    width: 166px;
+    height: 38px;
+    border-bottom: 1px dashed #012e66;
+    line-height: 38px;
+    list-style: none;
+    display: block;
+    background: url("../images/icon_27.png") no-repeat left center;
+    padding-left: 17px;
+    margin-left: 30px;
+}
+.container .container_zou .zuo1 .liebiao ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #012e66;
+}
+/*左上结束*/
+/*左中开始*/
+.container .container_zou .zuo2{
+    width: 230px;
+    height: 192px;
+    background: darkcyan;
+    float:left;
+}
+.container .container_zou .zuo2 .tup1{
+    width: 230px;
+    height: 37px;
+    background: url("../images/icon_46.png") no-repeat;
+    float:left;
+}
+.container .container_zou .zuo2 .liebiao{
+    width: 230px;
+    height: 155px;
+    background:#e4f3ff;
+    float:left;
+}
+.container .container_zou .zuo2 .liebiao ul li{
+    width: 166px;
+    height: 38px;
+    border-bottom: 1px dashed #012e66;
+    line-height: 38px;
+    list-style: none;
+    display: block;
+    background: url("../images/icon_59.png") no-repeat left center;
+    padding-left: 17px;
+    margin-left: 30px;
+}
+.container .container_zou .zuo2 .liebiao ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #012e66;
+}
+/*左中结束*/
+/*左下开始*/
+.container .container_zou .zuo3{
+    width: 230px;
+    height: 286px;
+    background: lemonchiffon;
+    float:left;
+}
+.container .container_zou .zuo3 .tup1{
+    width: 230px;
+    height: 37px;
+    background: url("../images/icon_66.png") no-repeat;
+    float:left;
+}
+.container .container_zou .zuo3 .liebiao{
+    width: 230px;
+    height: 249px;
+    background:#e4f3ff url("../images/icon_73.png") no-repeat right bottom;
+    float:left;
+}
+.container .container_zou .zuo3 .liebiao ul li{
+    width: 196px;
+    border-bottom: 1px dashed #012e66;
+    line-height: 25px;
+    list-style: none;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+    font-size: 12px;
+    text-align: left;
+    color: #012e66;
+}.container .container_zou .zuo3 .liebiao ul li span{
+    font-weight: bold;
+ }
+
+
+/*左下结束*/
+/*左结束*/
+/*右开始*/
+.container .container_you{
+    width: 734px;
+    height: 917px;
+    float: right;
+    background: paleturquoise;
+}
+/*右结束*/
+/*中间结束*/
 .footer{
     width: 1440px;
     height: 103px;
