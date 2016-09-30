@@ -10,18 +10,18 @@ body {
 
 #main {
     margin: 0 auto;
-    width: 1440px;
+    width: 100%;
     height: 1384px;
 }
 
 .header {
-    width: 1440px;
+    width: 100%;
     height: 76px;
 }
 .header .ys{
-    width: 1440px;
+    width: 100%;
     height: 5px;
-    background: url("../images/icon_01.jpg") no-repeat;
+    background: #666666;
 }
 .header .topzj{
     width: 1000px;
@@ -49,14 +49,14 @@ body {
     font-weight: bold;
 }
 .nav{
-    width: 1440px;
+    width: 100%;
     height: 55px;
 }
 
 .navs {
-    width: 1440px;
+    width: 100%;
     height: 31px;
-    background: url("../images/nav.png") no-repeat;
+    background: url("../images/daohang.png") repeat-x;
     float: left;
 }
 
@@ -91,7 +91,7 @@ body {
 
 /*导航下开始*/
 .navx {
-    width: 1440px;
+    width: 100%;
     height: 24px;
     background: #c5e4ff;
     float: left;
@@ -126,7 +126,7 @@ body {
 }*/
 /*导航下结束*/
 .banner {
-    width: 1440px;
+    width: 100%;
     height: 216px;
     background: #005ea8;
 }
@@ -140,7 +140,7 @@ body {
 
 /*中间开始*/
 .container {
-    width: 1440px;
+    width: 100%;
     height: 939px;
 }
 
@@ -302,7 +302,7 @@ body {
     height: 45px;
     float: left;
     border-bottom: 1px solid #005ea8;
-    background: url("../images/icon_22.png") no-repeat left bottom;
+    background: url("../images/A.png") no-repeat left bottom;
 }
 
 .container .container_you .you1s a {
@@ -476,7 +476,7 @@ body {
 /*右结束*/
 /*中间结束*/
 .footer {
-    width: 1440px;
+    width: 100%;
     height: 77px;
     background: #e4f3ff;
     padding-top: 23px;
