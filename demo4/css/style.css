@@ -1,0 +1,114 @@
+/*----------------------------公用---------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #e5e5e5;
+}
+li {
+    list-style: none outside none;
+}
+/*----------------------------公用结束---------------------------------------*/
+#main{
+    width: 960px;
+    height: 1500px;
+    background: greenyellow;
+    margin: 0 auto;
+}
+.header{
+    width: 960px;
+    height: 149px;
+    background: red url("../img/banner.png") no-repeat;
+}
+/*-------导航开始---------*/
+.menu{
+    width: 960px;
+    height: 33px;
+    background: blue;
+}
+.riqi{
+    width: 200px;
+    height: 33px;
+    line-height: 33px;
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+}
+.menu ul{
+    width: 760px;
+    float: left;
+}
+.menu ul li{
+    width: 80px;
+    height: 33px;
+    line-height: 33px;
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    display: inline;
+    margin-left: 20px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+/*----------内容开始----------------*/
+.container{
+    width: 960px;
+    height: 800px;
+    background: gold;
+    margin-top: 6px;
+}
+.leftnav{
+    width: 195px;
+    height: 702px;
+    background: ghostwhite;
+    float: left;
+}
+.cont{
+    width: 560px;
+    height: 702px;
+    background: fuchsia;
+    float: left;
+    margin-left: 6px;
+}
+.rigthnav{
+    width: 188px;
+    height: 702px;
+    background: steelblue;
+    float: left;
+    margin-left: 6px;
+}
+/*内容结束*/
+/*底部开始*/
+.footer{
+    width: 960px;
+    height: 75px;
+    background: springgreen;
+    float: left;
+    padding-top: 45px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: center;
+}
+.footer p a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer p a:hover{
+    color: red;
+    text-decoration: underline;
+}
