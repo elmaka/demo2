@@ -48,14 +48,12 @@ li {
     width: 80px;
     height: 33px;
     line-height: 33px;
-    display: block;
-    font-size: 14px;
+        font-size: 14px;
     color: #ffffff;
     display: inline;
     margin-left: 20px;
 
 }
-
 .menu ul li a{
     text-decoration: none;
     color: #ffffff;
@@ -69,7 +67,7 @@ li {
     width: 960px;
     height: 800px;
     background: gold;
-    margin-top: 6px;
+    margin-top: 3px;
 }
 .leftnav{
     width: 195px;
@@ -77,6 +75,67 @@ li {
     background: ghostwhite;
     float: left;
 }
+.lefttop{
+    width: 204px;
+    height: 237px;
+    background: yellowgreen;
+}
+.tupian{
+    width: 192px;
+    height: 192px;
+    background: red url("../img/tupian1.jpg") no-repeat;
+    margin: 0 auto;
+}
+.xbsp{
+    width: 204px;
+    height: 40px;
+    background: url("../img/wenjuan.png") center no-repeat;
+}
+.leftbom{
+    width: 194px;
+    height: 465px;
+    background: yellow;
+    margin: 0 auto;
+}
+.djjr{
+    width: 204px;
+    height: 37px;
+}
+.leftbom ul {
+    width: 197px;
+    height: 370px;
+    background: red;
+}
+.leftbom ul li{
+    text-decoration: none;
+    height: 34px;
+    border: 1px solid #D2E1F1;
+    margin: 2px;
+    background: #EDF2F8;;
+}
+.leftbom ul li img{
+    float: left;
+    width: 35px;
+    height: 30px;
+}
+.leftbom ul li div{
+    width: 142px;
+    height: 34px;
+    padding-left: 10px;
+    line-height: 34px;
+    float: left;
+}
+.leftbom ul li div a{
+
+    font-size: 14px;
+    color: #000000;
+}
+.kefu{
+    width: 196px;
+    height: 42px;
+    background: red url("../img/ico_tltel.gif") no-repeat;
+}
+
 .cont{
     width: 560px;
     height: 702px;
