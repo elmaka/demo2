@@ -135,7 +135,7 @@ li {
     height: 42px;
     background: red url("../img/ico_tltel.gif") no-repeat;
 }
-
+/*中间开始*/
 .cont{
     width: 560px;
     height: 702px;
@@ -143,6 +143,73 @@ li {
     float: left;
     margin-left: 6px;
 }
+.cont .xwdt{
+    width: 560px;
+    height: 244px;
+    border: 1px solid #e4e4e4;
+    background: lightblue;
+}
+.cont .xwdt .biaoti{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    width: 562px;
+    height: 34px;
+    background: red url("../img/icon_zx.png") no-repeat;
+}
+.cont .sz{
+    width: 552px;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    color: blue;
+    background:burlywood;
+    padding-left: 10px;
+}
+.cont .sz a{
+    color: red;
+    text-decoration: underline;
+}
+.cont .zx{
+    width: 542px;
+    height: 184px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cont .zx ul li{
+    font-size: 12px;
+    line-height: 22px;
+    border-bottom: 1px dashed gray;
+}
+.cont .zx ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+.cont .zx ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.cont .zx ul li span{
+    float: right;
+    color: gray;
+}
+.cont .zx ul .gd{
+    float: right;
+    color: #000000;
+    border: none;
+}
+.cont.xiam{
+
+}
+/*下面部分*/
+.cont .xiam{
+    width: 562px;
+    height: 451px;
+    background: tan;
+    margin-top: 5px;
+    }
+/*中间结束*/
 .rigthnav{
     width: 188px;
     height: 702px;
