@@ -88,15 +88,31 @@ li {
     position: relative;
     border: 1px solid #ddd;
 }
-.xiaotu{
+ .xiaotu{
     height: 15px;
-    overflow: hidden;
+    width: 51px;
+    margin-left: 135px;
+    margin-top: 170px;
     position: absolute;
-    right: 5px;
-    bottom: 5px;
-    z-index: 2;
+    z-index: 1;
 }
+.xiaotu li{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-left: 1px;
+    line-height: 14px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    display: block;
 }
+.xiaotu li:hover{
+    background: red;
+    color: #ffffff;
+}
+
 .xbsp{
     width: 204px;
     height: 40px;
@@ -369,13 +385,15 @@ table a{
     float: left;
     margin-left: 6px;
 }
-
 .lunbo {
     width: 188px;
     height: 194px;
     background: url("../img/tupian4.jpg") no-repeat;
 }
-
+.unbo .xiao li{
+    margin-top: 150px;
+    margin-left: 150px;
+}
 .wyfh {
     width: 188px;
     height: 95px;
@@ -426,8 +444,7 @@ table a{
     width: 188px;
     height: 233px;
     margin-top: 2px;
-    border-left: 1px solid #0080ff;
-    border-left: 1px solid #0080ff;
+    background: url("../img/ico_link002.gif") repeat-y;
 }
 
 .xglj .bj {
@@ -437,14 +454,13 @@ table a{
 }
 
 .xglj ul {
-    width: 188px;
+    width: 180px;
     height: 194px;
     overflow-x: hidden;
     overflow-y: auto;
-    background: #ffffff;
 }
 
-.xglj ul li {
+.xglj ul {
     margin-left: 5px;
 }
 
