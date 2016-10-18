@@ -7,8 +7,8 @@
 body {
     width: 100%;
     height: 100%;
+    background: #d5d5d7;
 }
-
 #main {
     margin: 0 auto;
     width: 100%;
@@ -18,10 +18,289 @@ body {
     width: 100%;
     height: 130px;
     background: #013d97;
-}
+    float: left;
+   }
 .cont{
     width:980px;
     height: 130px;
+    margin: 0 auto;
 }
-
+.cont .top{
+    width: 980px;
+    height: 90px;
+}
+.cont .top .logo{
+    width: 180px;
+    height: 90px;
+    float: left;
+}
+.logo img{
+    width: 180px;
+    height: 60px;
+    margin-top: 15px;
+    line-height: 90px;
+   }
+.cont .top .topright{
+    width: 800px;
+    height: 90px;
+    float: right;
+    background: red;
+}
+.cont .top .topright .lianjie{
+    width: 800px;
+    height: 50px;
+    float: right;
+    background: green;
+}
+.cont .top .topright .lianjie ul{
+    width: auto;
+    height: 30px;
+    float: right;
+    background: olive;
+}
+.cont .top .topright .lianjie ul li{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+.cont .top .topright .lianjie ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.cont .top .topright .lianjie ul li a:hover{
+    text-decoration: underline;
+}
+.cont .top .topright .lianjie ul li span{
+    color: #fff;
+    float:right;
+}
+.cont .top .topright .htjr{
+    width: 800px;
+    height: 40px;
+    float: right;
+}
+.cont .top .topright .htjr a{
+    text-decoration: none;
+    float: right;
+    line-height: 40px;
+    color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu{
+    width: 980px;
+    height: 40px;
+    background: #007ac7;
+}
+.menu ul li{
+    width: 122px;
+    height: 40px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    }
+.menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.menu ul li:hover{
+    background: url("../img/dt-4.gif") repeat-x;
+    color:#444444;
+}
+.menu ul li a:hover{
+    color:#444444;
+}
 /*--------------------------------------公用-----------------------------------------*/
+#container{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+}
+.banner{
+    width: 980px;
+    height: 245px;
+    background: url("../img/1342429839.jpg");
+    margin-top: 10px;
+}
+.cont1{
+    width: 980px;
+    height: 277px;
+    margin-top: 10px;
+    float: left;
+}
+.cont1 .zuo1{
+    width: 675px;
+    height: 277px;
+    float: left;
+}
+.title{
+    width: 675px;
+    height: 32px;
+}
+.title .ydi{
+    width: 106px;
+    height: 32px;
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    background: url("../img/dt-5.gif") repeat-x;
+    border-radius:5px 5px 0 0;
+    float: left;
+}
+.title .more{
+    width: 50px;
+    height: 32px;
+    float: right;
+}
+.title img{
+    width: 39px;
+    height: 11px;
+    line-height: 32px;
+    padding-top: 10px;
+}
+.content{
+    width: 639px;
+    height: 209px;
+    background: white;
+    padding: 18px;
+}
+.content .ztuo{
+    width: 196px;
+    height: 209px;
+    float: left;
+    border: 0;
+}
+.content .wenzi{
+    width: 433px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+    padding-top: 9px;
+}
+.content .wenzi .ws{
+    width: 433px;
+    height: auto;
+}
+h3 a{
+    margin-top: 10px;
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover{
+    color: #007ac7;
+}
+p a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+}
+.wx{
+    margin-top: 20px;
+    width: 433px;
+    height: auto;
+}
+.cont1 .you1{
+    width: 290px;
+    height: 277px;
+    float: left;
+    margin-left: 15px;
+    background: white;
+}
+.rtitle{
+    width: 258px;
+    height: 32px;
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #017dcc;
+    border-radius:5px 5px 0 0;
+    float: left;
+}
+span {
+    line-height: 32px;
+    float: right;
+}
+span a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+span a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.rcontent{
+    width: 258px;
+    height: 205px;
+    padding-left: 16px;
+    padding-right: 16px;
+    float: left;
+}
+.rcontent ul li{
+    list-style: none;
+    height: 80px;
+    padding-bottom: 15px;
+    background: red;
+    border-bottom: 1px dashed gray;
+    margin-top: 15px;
+}
+.rcontent ul li img {
+    width: 116px;
+    height: 80px;
+    border: 0;
+    float: left;
+}
+.rcontent ul li div{
+    width: 132px;
+    height: 80px;
+    background: yellow;
+    float: right;
+}
+.rcontent ul li div h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.rcontent ul li div p{
+    font-size: 12px;
+    color: #333333;
+}
+/*第二部分开始*/
+.cont2{
+    width: 980px;
+    height: 352px;
+    background: yellowgreen;
+    float: left;
+    margin-top: 10px;
+}
+/*第二部分结束*/
+/*第三部分开始*/
+.cont3{
+    width: 980px;
+    height: 209px;
+    background: yellowgreen;
+    float: left;
+    margin-top: 10px;
+}
+/*第三部分结束*/
+/*脚步开始*/
+#footer{
+    width: 100%;
+    height: 132px;
+    background: yellowgreen;
+    float: left;
+    margin-top: 10px;
+}
