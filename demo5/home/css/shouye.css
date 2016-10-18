@@ -120,9 +120,7 @@ body {
 /*--------------------------------------公用-----------------------------------------*/
 #container{
     width: 980px;
-    height: 100%;
     margin: 0 auto;
-    float: left;
 }
 .banner{
     width: 980px;
@@ -142,7 +140,7 @@ body {
     float: left;
 }
 .title{
-    width: 675px;
+    width: auto;
     height: 32px;
 }
 .title .ydi{
@@ -166,6 +164,7 @@ body {
     height: 11px;
     line-height: 32px;
     padding-top: 10px;
+    border: 0;
 }
 .content{
     width: 639px;
@@ -286,6 +285,63 @@ span a:hover{
     float: left;
     margin-top: 10px;
 }
+.cont2 ul li{
+    list-style: none;
+    background: url("../img/dt-1.gif") no-repeat 0 14px;
+}
+.cont2 ul li div{
+    width: 330px;
+    height: 352px;
+    float: left;
+    margin-right: 15px;
+}
+.cont2 .title{
+    width: 330px;
+    height: 32px;
+    float: left;
+}
+.cont2 .list{
+    width: 298px;
+    height: 310px;
+    float: left;
+    background: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+
+}
+.cont2 .list ul li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+}
+.cont2  ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333333;
+    margin-left: 10px;
+}
+.cont2  ul li span{
+    font-size: 12px;
+    color: #333333;
+    float: right;
+    line-height: 30px;
+}
+.cont2 .rlist{
+    width: 258px;
+    height: 310px;
+    float: left;
+    background: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+.cont2 .rlist ul li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+}
+
 /*第二部分结束*/
 /*第三部分开始*/
 .cont3{
@@ -295,6 +351,21 @@ span a:hover{
     float: left;
     margin-top: 10px;
 }
+.cont3 .rtitle{
+    width: 948px;
+}
+.lunbo{
+    width: 950px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.unbo ul li{
+    width: 160px;
+    height: 130px;
+    list-style: none;
+    float: left;
+}
+
 /*第三部分结束*/
 /*脚步开始*/
 #footer{
@@ -303,4 +374,11 @@ span a:hover{
     background: yellowgreen;
     float: left;
     margin-top: 10px;
+}
+.zj{
+    width:980px;
+    height: 132px;
+    background: red;
+    margin: 0 auto;
+
 }
