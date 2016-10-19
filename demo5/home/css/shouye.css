@@ -12,7 +12,7 @@ body {
 #main {
     margin: 0 auto;
     width: 100%;
-    height: 1500px;
+    height: 2000px;
 }
 #header {
     width: 100%;
@@ -120,6 +120,7 @@ body {
 /*--------------------------------------公用-----------------------------------------*/
 #container{
     width: 980px;
+    height: auto;
     margin: 0 auto;
 }
 .banner{
@@ -127,6 +128,7 @@ body {
     height: 245px;
     background: url("../img/1342429839.jpg");
     margin-top: 10px;
+    float: left;
 }
 .cont1{
     width: 980px;
@@ -177,6 +179,11 @@ body {
     height: 209px;
     float: left;
     border: 0;
+}
+.pic{
+    width: 196px;
+    height: 209px;
+    float: left;
 }
 .content .wenzi{
     width: 433px;
@@ -354,19 +361,59 @@ span a:hover{
 .cont3 .rtitle{
     width: 948px;
 }
-.lunbo{
-    width: 950px;
-    padding-left: 15px;
-    padding-right: 15px;
+.cont3 .lunbo{
+    float: left;
 }
-.unbo ul li{
+.lunbo ul li{
     width: 160px;
     height: 130px;
     list-style: none;
     float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
 }
-
+.lunbo .cp{
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+   line-height: 30px;
+}
+.lunbo .cp:hover{
+    color: #007bc8;
+}
 /*第三部分结束*/
+/*第四部分*/
+.cont4{
+    width: 948px;
+    height: 78px;
+    background: white;
+    margin-top: 10px;
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.cont4 ul li{
+    list-style: none;
+    width: 948px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dashed #4b4b4b;
+}
+.cont4 ul .w{
+    border: 0;
+}
+.cont4 ul li a{
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 12px;
+}
+.cont4 ul li a:hover{
+    color: #0f4e7f;
+}
+.cont4 ul li .gd{
+    float: right;
+}
 /*脚步开始*/
 #footer{
     width: 100%;
@@ -377,8 +424,23 @@ span a:hover{
 }
 .zj{
     width:980px;
-    height: 132px;
+    height: 127px;
     background: red;
     margin: 0 auto;
-
+    text-align: center;
+    padding-top: 15px;
+}
+.zj p{
+    text-align: center;
+}
+.zj ul li{
+    list-style: none;
+    float: left;
+    line-height: 24px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    }
+.zj ul li span{
+    float: right;
 }
