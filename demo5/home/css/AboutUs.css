@@ -186,7 +186,7 @@ body {
     float: left;
     margin-left: 15px;
 }
-.cont2 .rlist{
+.cont2 .rlist {
     width: 210px;
     height: 32px;
     color: white;
@@ -197,6 +197,7 @@ body {
     background: #017dcc;
     border-radius: 5px 5px 0 0;
     float: left;
+}
 .cont2 .rlist ul li{
     list-style: none;
     height: 30px;
