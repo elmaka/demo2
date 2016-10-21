@@ -134,6 +134,25 @@ body {
     margin-top: 10px;
     float: left;
 }
+.banner div{
+    width: 100px;
+    height: 15px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 215px;
+    margin-left: 850px;
+}
+.banner div ul li{
+    width: 15px;
+    height: 15px;
+    background:#ffcc00;
+    margin-left: 10px;
+    float: left;
+    list-style: none;
+}
+.banner div ul li:hover{
+    background:#00cc33;
+}
 .cont1{
     width: 980px;
     height: 277px;
@@ -364,6 +383,27 @@ span a:hover{
 }
 .cont3 .rtitle{
     width: 948px;
+    }
+.yuan{
+    width: 103px;
+    height: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.yuan ul li{
+    list-style: none;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background:#9df0f5;
+    margin-left: 3px;
+}
+.yuan ul li:hover{
+    background: white;
+}
+.cont3 .rtitle img{
+    float: left;
 }
 .cont3 .lunbo{
     float: left;
