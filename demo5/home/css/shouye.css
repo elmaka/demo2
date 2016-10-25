@@ -1,127 +1,3 @@
-/*--------------------------------------公用-----------------------------------------*/
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    background: #d5d5d7;
-}
-#main {
-    margin: 0 auto;
-    width: 100%;
-    height: 2000px;
-}
-#header {
-    width: 100%;
-    height: 130px;
-    background: #013d97;
-    float: left;
-   }
-.cont{
-    width:980px;
-    height: 130px;
-    margin: 0 auto;
-}
-.cont .top{
-    width: 980px;
-    height: 90px;
-}
-.cont .top .logo{
-    width: 180px;
-    height: 90px;
-    float: left;
-}
-.logo img{
-    width: 180px;
-    height: 60px;
-    margin-top: 15px;
-    line-height: 90px;
-   }
-.cont .top .topright{
-    width: 800px;
-    height: 90px;
-    float: right;
-    background: red;
-}
-.cont .top .topright .lianjie{
-    width: 800px;
-    height: 50px;
-    float: right;
-    background: green;
-}
-.cont .top .topright .lianjie ul{
-    width: auto;
-    height: 30px;
-    float: right;
-    background: olive;
-}
-.cont .top .topright .lianjie ul li{
-    width: 70px;
-    height: 30px;
-    line-height: 30px;
-    float: left;
-    text-align: center;
-    list-style: none;
-}
-.cont .top .topright .lianjie ul li a{
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font-size: 12px;
-}
-.cont .top .topright .lianjie ul li a:hover{
-    text-decoration: underline;
-}
-.cont .top .topright .lianjie ul li span{
-    color: #fff;
-    float:right;
-}
-.cont .top .topright .htjr{
-    width: 800px;
-    height: 40px;
-    float: right;
-}
-.cont .top .topright .htjr a{
-    text-decoration: none;
-    float: right;
-    line-height: 40px;
-    color: yellow;
-    font-size: 14px;
-    font-weight: bold;
-}
-.menu{
-    width: 980px;
-    height: 40px;
-    background: #007ac7;
-    border-radius: 5px 5px 0 0 ;
-}
-.menu ul li{
-    width: 122px;
-    height: 40px;
-    display: block;
-    float: left;
-    text-align: center;
-    line-height: 40px;
-    }
-.menu ul li a{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 14px;
-}
-.menu ul li:hover{
-    background: url("../img/dt-4.gif") repeat-x;
-    color:#444444;
-}
-.menu ul .yj{
-    border-radius: 5px 5px 0 0;
-}
-.menu ul li a:hover{
-    color:#444444;
-}
-/*--------------------------------------公用-----------------------------------------*/
 #container{
     width: 980px;
     height: auto;
@@ -244,7 +120,6 @@ p a{
     height: 277px;
     float: left;
     margin-left: 15px;
-    background: white;
 }
 .rtitle{
     width: 258px;
@@ -277,12 +152,12 @@ span a:hover{
     padding-left: 16px;
     padding-right: 16px;
     float: left;
+    background: white;
 }
 .rcontent ul li{
     list-style: none;
     height: 80px;
     padding-bottom: 15px;
-    background: red;
     border-bottom: 1px dashed gray;
     margin-top: 15px;
 }
@@ -295,7 +170,6 @@ span a:hover{
 .rcontent ul li div{
     width: 132px;
     height: 80px;
-    background: yellow;
     float: right;
 }
 .rcontent ul li div h4{
@@ -311,7 +185,6 @@ span a:hover{
 .cont2{
     width: 980px;
     height: 352px;
-    background: yellowgreen;
     float: left;
     margin-top: 10px;
 }
@@ -377,7 +250,7 @@ span a:hover{
 .cont3{
     width: 980px;
     height: 209px;
-    background: yellowgreen;
+    background:white;
     float: left;
     margin-top: 10px;
 }
@@ -462,37 +335,3 @@ span a:hover{
 .cont4 ul .biao{
     background: url("../img/dt-2.gif") no-repeat 0 13px;
 }
-/*脚步开始*/
-#footer{
-    width: 100%;
-    height: 103px;
-    background: yellowgreen;
-    float: left;
-    margin-top: 10px;
-}
-.zj{
-    width:980px;
-    height: 88px;
-    background: red;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 15px;
-}
-.zj p{
-    text-align: center;
-    height: 22px;
-    line-height: 22px;
-    font-size: 12px;
-}
-/*
-.zj ul li{
-    list-style: none;
-    float: left;
-    font-size: 12px;
-    width: 80px;
-    height: 22px;
-    text-align: center;
-    }
-.zj ul li span{
-    float: right;
-}*/
