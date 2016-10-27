@@ -1,0 +1,89 @@
+#main{
+    width: 980px;
+    height: 1200px;
+    margin: 0 auto;
+    background: gainsboro;
+}
+.leftz{
+    width: 700px;
+    height: 1198px;
+    background: white;
+    border: 1px solid darkgray;
+    float: left;
+}
+.righty{
+    width: 276px;
+    height: 1198px;
+    background: gainsboro;
+    border: 1px solid darkgray;
+    float: left;
+}
+.list{
+    width: 450px;
+    height: 37px;
+    background: yellow;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.list ul li{
+    width: 148px;
+    height: 35px;
+    background: gainsboro;
+    border: 1px solid darkgray;
+    list-style: none;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+}
+.list ul li:hover{
+     background: #1e71b1;
+    color: white;
+}
+.list ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+    width: 148px;
+    height: 35px;
+}
+.list ul li a:hover{
+    width: 148px;
+    height: 35px;
+    color: white;
+    display: block;
+}
+/*开始*/
+.biaodan{
+    width: 550px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+table tr{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: right;
+    width: 150px;
+}
+table tr .text{
+    width: 120px;
+    text-align: right;
+}
+
+table tr  span{
+    color: red;
+    margin-right: 10px;
+}
+table tr .d3{
+    text-align: left;
+}
+table tr .d2{
+    width: 140px;
+}
+.hui{
+    text-align: left;
+    color: gray;
+    font-size: 12px;
+}
