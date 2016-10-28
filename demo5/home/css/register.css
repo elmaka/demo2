@@ -12,11 +12,19 @@
     float: left;
 }
 .righty{
-    width: 276px;
-    height: 1198px;
+    width: 450px;
     background: gainsboro;
     border: 1px solid darkgray;
     float: left;
+}
+.righty .tongyi{
+    width:300px;
+    font-size: 10px;
+    margin-left:120px;
+}
+.regBtn{
+    margin-left:120px;
+    margin-top: 20px;
 }
 .list{
     width: 450px;
@@ -54,36 +62,143 @@
 }
 /*开始*/
 .biaodan{
-    width: 550px;
+    width: 450px;
     height: auto;
     float: left;
+    margin-left:125px;
+    background: yellowgreen;
+}
+/*.KK{
+    margin-bottom: 20px;
+}*/
+
+.ss{
+    width: 450px;
+    height: 30px;
+    vertical-align: middle;
     margin-top: 20px;
-    margin-left: 20px;
 }
-table tr{
-    height: 40px;
-    line-height: 40px;
+.zuo{
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    background: yellow;
+    text-align: right;
+    padding-right: 20px;
     font-size: 14px;
-    text-align: right;
-    width: 150px;
 }
-table tr .text{
-    width: 120px;
-    text-align: right;
+.zuo span{
+    color: red;
+    margin-right:5px;
+}
+.sj{
+    width: 220px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.xz{
+    width: 450px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    color: gray;
+    padding-left: 120px;
+    float: left;
+}
+/*二*/
+.youm{
+    width: 330px;
+    float: left;
+    background: bisque;
+}
+.yz{
+     width: 200px;
+    height: 70px;
+     float: left;
+     background: firebrick;
+ }
+.yy{
+    width: 130px;
+    height: 70px;
+    float: left;
+    background: blueviolet;
+}
+.z1{
+    width: 200px;
+    height: 55px;
+    float: left;
+    background: steelblue;
+}
+.tup{
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    float: left;
+}
+.xia1{
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    color: gray;
+    float: left;
+    margin-top: 28px;
+}
+.yous{
+    width: 130px;
+    height:50px;
+    float: left;
+    background: coral;
+}
+/******验证码图片********/
+.yous img{
+    border:0;
+    width: 130px;
+    height:40px;
+    margin-top:5px;
+}
+.youx{
+    width: 130px;
+    height:20px;
+    float: left;
 }
 
-table tr  span{
-    color: red;
-    margin-right: 10px;
-}
-table tr .d3{
-    text-align: left;
-}
-table tr .d2{
-    width: 140px;
-}
-.hui{
-    text-align: left;
-    color: gray;
+.youx a{
+    text-decoration: none;
     font-size: 12px;
+}
+/*disan*/
+.d3{
+    width: 450px;
+    float: left;
+    background: yellow;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+.d3 button{
+    width: 145px;
+    height: 30px;
+}
+.ddd{
+    width: 450px;
+    float: left;
+    background: yellow;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+.dd{
+    width: 325px;
+    height: 20px;
+    border-radius: 5px;
+    float: left;
+}
+/*******右边********/
+.rightz{
+    width:278px;
+    height:500px;
+    background: red;
+    float:left;
 }
