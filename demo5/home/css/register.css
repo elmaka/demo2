@@ -33,10 +33,13 @@
     margin-left: 125px;
     margin-top: 50px;
 }
+/*********注册导航是图片**********/
+.list ul{
+    background: url("../img/regtab.jpg");
+}
 .list ul li{
     width: 148px;
     height: 35px;
-    background: gainsboro;
     border: 1px solid darkgray;
     list-style: none;
     text-align: center;
