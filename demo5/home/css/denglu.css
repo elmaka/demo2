@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background:url("../img/jiemian.png") no-repeat;
+}
+
+#yhdl{
+    width: 400px;
+    height: 364px;
+    margin: 0 auto;
+    background:url("../img/bai.png") no-repeat;
+    position:absolute;
+    left:680px;
+    top:300px;
+    z-index: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.s{
+    width: 400px;
+    height: 50px;
+    background: turquoise;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 微软雅黑;
+    color: #016dba;
+}
+.z{
+    width: 400px;
+    height: 190px;
+    background: yellow;
+    float: left;
+    margin-top: 10px;
+}
+.z ul li{
+    list-style: none;
+    background: url("../img/icon-_03.png") no-repeat 0 10px;
+}
+.z ul li input{
+    width: 330px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+    color: gainsboro;
+    padding-left: 60px;
+    background: none;
+}
+.x{
+    width: 400px;
+    height: 50px;
+    background: turquoise;
+    float: left;
+    margin-top: 10px;
+}
+.x input{
+    width: 170px;
+    height: 50px;
+    background: #66d354;
+    float: left;
+    border-radius: 30px;
+    border: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    color: white;
+    font-family: 微软雅黑;
+}
+.x input:hover{
+    background: #dcdcdc;
+    border: 1px solid #1c57c4;
+    color: #1c57c4;
+}
+.d3{
+
+}
+.yzm{
+    width: 235px;
+    height: 50px;
+}
