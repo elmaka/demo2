@@ -1,20 +1,18 @@
 #main{
     width: 980px;
-    height: 1200px;
+    height: 630px;
     margin: 0 auto;
     background: gainsboro;
 }
 .leftz{
     width: 700px;
-    height: 1198px;
+    height: 630px;
     background: white;
     border: 1px solid darkgray;
     float: left;
 }
 .righty{
     width: 450px;
-    background: gainsboro;
-    border: 1px solid darkgray;
     float: left;
 }
 .righty .tongyi{
@@ -29,7 +27,6 @@
 .list{
     width: 450px;
     height: 37px;
-    background: yellow;
     margin-left: 125px;
     margin-top: 50px;
 }
@@ -50,18 +47,23 @@
      background: #1e71b1;
     color: white;
 }
+.list .yuanjiao1{
+    border-radius: 3px 0 0 3px;
+}
+.list .yuanjiao2{
+    border-radius: 0  3px 3px 0;
+}
 .list ul li a{
     text-decoration: none;
     color:#000;
     font-size: 14px;
     width: 148px;
     height: 35px;
+    display: block;
 }
 .list ul li a:hover{
-    width: 148px;
-    height: 35px;
     color: white;
-    display: block;
+    font-weight: bold;
 }
 /*开始*/
 .biaodan{
@@ -69,7 +71,7 @@
     height: auto;
     float: left;
     margin-left:125px;
-    background: yellowgreen;
+    margin-top: 15px;
 }
 /*.KK{
     margin-bottom: 20px;
@@ -79,14 +81,12 @@
     width: 450px;
     height: 30px;
     vertical-align: middle;
-    margin-top: 20px;
 }
 .zuo{
     width: 100px;
     height: 25px;
     line-height: 25px;
     float: left;
-    background: yellow;
     text-align: right;
     padding-right: 20px;
     font-size: 14px;
@@ -102,6 +102,7 @@
     padding: 0;
     margin: 0;
     float: left;
+    background: url(../img/glb_v2.png) no-repeat -68px -285px;
 }
 .xz{
     width: 450px;
@@ -116,25 +117,21 @@
 .youm{
     width: 330px;
     float: left;
-    background: bisque;
 }
 .yz{
      width: 200px;
     height: 70px;
      float: left;
-     background: firebrick;
  }
 .yy{
     width: 130px;
     height: 70px;
     float: left;
-    background: blueviolet;
 }
 .z1{
     width: 200px;
     height: 55px;
     float: left;
-    background: steelblue;
 }
 .tup{
     width: 190px;
@@ -154,14 +151,12 @@
     width: 130px;
     height:50px;
     float: left;
-    background: coral;
 }
 /******验证码图片********/
 .yous img{
     border:0;
     width: 130px;
     height:40px;
-    margin-top:5px;
 }
 .youx{
     width: 130px;
@@ -177,19 +172,35 @@
 .d3{
     width: 450px;
     float: left;
-    background: yellow;
     margin-left: 125px;
     margin-top: 5px;
 }
-.d3 button{
+.d3 input{
     width: 145px;
     height: 30px;
 }
 .ddd{
     width: 450px;
     float: left;
-    background: yellow;
     margin-left: 125px;
+    margin-top: 15px;
+}
+.btnReg {
+    width: 119px;
+    height: 37px;
+    font-size: 14px;
+    background-position: 0 -360px;
+    text-decoration: none;
+    line-height: 37px;
+    color: #FFF;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/glb_v2.png);
+    background-repeat: no-repeat;
+    margin-left: 120px;
     margin-top: 15px;
 }
 .dd{
@@ -201,7 +212,12 @@
 /*******右边********/
 .rightz{
     width:278px;
-    height:500px;
-    background: red;
-    float:left;
+    height:630px;
+    float: left;
+    background: #f5f5f5;
 }
+ .rightz img{
+     position: absolute;
+     margin-top: 130px;
+     margin-left: 20px;
+ }
