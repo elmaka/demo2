@@ -1,0 +1,150 @@
+#cont{
+    width: 980px;
+    margin: 0 auto;
+}
+.cont2{
+    width: 980px;
+    height: 750px;
+    float: left;
+    margin: 0 auto;
+}
+.cont2 .lcont2{
+    width: 210px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+.cont2 .rcont2{
+    width: 755px;
+    height: 750px;
+    background: white;
+    float: left;
+    margin-left: 15px;
+}
+.cont2 .ltitle {
+    width: 194px;
+    height: 32px;
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 16px;
+    background: #017dcc /*url("../img/dt-5.gif") repeat-x*/;
+    border-radius: 5px 5px 0 0;
+    float: left;
+}
+.cont2 .list {
+    width: 178px;
+    float: left;
+    background: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cont2 .list ul li {
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    background: url("../img/dt-11.gif") no-repeat 0 14px;
+}
+
+.cont2 .list ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #333333;
+    margin-left: 10px;
+}
+
+.cont2 .list p {
+    font-size: 12px;
+    color: #333333;
+    margin-left: 10px;
+    line-height: 32px;
+}
+
+/*----------右开始*/
+.rcont2{
+    margin-top: 10px;
+}
+.cont2 .rcont2 .title {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid gainsboro;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    /*float: left;*/
+}
+
+.cont2 .rcont2 .title span {
+    float: right;
+    font-size: 12px;
+}
+
+.cont2 .rcont2 .title span a {
+    color: #013d97;
+}
+.product{
+    width: 705px;
+    height: 680px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 13px;
+}
+.tu{
+    width: 705px;
+    height: 630px;
+    float: left;
+}
+.product ul li{
+    width: 213px;
+    height: 188px;
+    border-radius: 3px;
+    border: 1px solid #f0f0f0;
+    float: left;
+    margin-right: 12px;
+    padding: 4px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.product ul li a{
+    width: 213px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}
+.biankuang{
+    margin: 0;
+}
+.more{
+    width: 705px;
+    height: 50px;
+    float: left;
+}
+.page{
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.xx{
+    width: 55px;
+    height: 20px;
+    float: left;
+    background: #d5d5d7;
+    margin-left: 5px;
+    text-align: center;
+}
+.xx a{
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
