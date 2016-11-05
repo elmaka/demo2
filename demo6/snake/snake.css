@@ -1,0 +1,31 @@
+body {
+    margin: 0 auto;
+    background: #6699FF;
+    width: 960px;
+    height: 800px;
+}
+
+nav {
+    width: 960px;
+    height: 50px;
+    float: left;
+}
+
+canvas {
+    border: thick solid #000000;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+#score {
+    width: 100px;
+    height: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+#score span {
+    color: #FF0000;
+}
