@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<script type="text/javascript">
+    //数字类型  number
+    var a = 5;
+    var b = 1.5;
+    var g=123;
+    var e="<br/>";
+    document.write(typeof(a)+e);
+    //字符串类型  string
+    var c = "123";
+    document.write((g==c)+e);
+    document.write(typeof(c)+e);
+    //布尔类型  boolean
+    var d = true;
+    var f = false;
+    document.write(typeof(d)+e);
+    if(g==c){
+
+    }
+    else{
+
+    }
+    //输出1到100
+    for(var i = 1;i<=100;i++){
+        document.write(i+e);
+    }
+    document.write("--------------"+e);
+    //输出1到100的偶数
+    for(var i=1;i<=100;i++){
+        if((i%2)==0){
+            document.write(i);
+        }
+    }
+    document.write(e);
+    for(var i=1;i<=100;i++){
+        if((i%2)!=0){
+            document.write(i);
+        }
+    }
+    document.write(e);
+    var qh = 0;
+    for(var i=1;i<=100;i++){
+        if((i%2)!=0){
+            qh=qh+i;
+        }
+    }
+    document.write(qh);
+    document.write(e);
+    for(var i=1;i<=10;i++){
+        for(var l=1;l<=i;l++){
+            document.write("*");
+
+        }
+        document.write("<br/>");
+    }
+    for(var i=1;i<=10;i++){
+        if((i%2)!=0){
+            for(var l=1;l<=i;l++){
+                document.write("*");
+            }
+            document.write("<br/>");
+        }
+    }
+
+
+    for(var i=1;i<=9;i++){
+        for(var l=1;l<=i;l++){
+            var m=i;
+            var z="+";
+            var j=l;
+            var o="=";
+            var p=m+j;
+            var u=m+z+j+o+p;
+
+                    document.write(u+"&nbsp;");
+
+        }
+        document.write("<br/>");
+    }
+
+</script>
+</body>
+</html>
